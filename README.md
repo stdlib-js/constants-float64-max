@@ -144,8 +144,8 @@ Macro for the maximum [double-precision floating-point number][ieee754].
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/float16/max`][@stdlib/constants/float16/max]</span><span class="delimiter">: </span><span class="description">maximum half-precision floating-point number.</span>
--   <span class="package-name">[`@stdlib/constants/float32/max`][@stdlib/constants/float32/max]</span><span class="delimiter">: </span><span class="description">maximum single-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/constants-float16/max`][@stdlib/constants/float16/max]</span><span class="delimiter">: </span><span class="description">maximum half-precision floating-point number.</span>
+-   <span class="package-name">[`@stdlib/constants-float32/max`][@stdlib/constants/float32/max]</span><span class="delimiter">: </span><span class="description">maximum single-precision floating-point number.</span>
 
 </section>
 
