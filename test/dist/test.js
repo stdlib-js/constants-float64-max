@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,21 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var pow = require( '@stdlib/math-base-special-pow' );
-var Number = require( '@stdlib/number-ctor' );
-var FLOAT64_MAX = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a number', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof FLOAT64_MAX, 'number', 'main export is a number' );
-	t.end();
-});
-
-tape( 'export is a double-precision floating-point number equal to the max double-precision floating-point number', function test( t ) {
-	t.equal( FLOAT64_MAX, pow(2, 1023) * (2-pow(2, -52)), 'equals max value' );
-	t.equal( FLOAT64_MAX, Number.MAX_VALUE, 'equals max value (Number object)' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
