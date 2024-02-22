@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT64_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max@esm/index.mjs';
+import FLOAT64_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max@v0.2.1-esm/index.mjs';
 ```
 
 #### FLOAT64_MAX
@@ -72,7 +72,7 @@ var bool = ( FLOAT64_MAX === 1.7976931348623157e+308 );
 <body>
 <script type="module">
 
-import FLOAT64_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max@esm/index.mjs';
+import FLOAT64_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max@v0.2.1-esm/index.mjs';
 
 console.log( FLOAT64_MAX );
 // => 1.7976931348623157e+308
